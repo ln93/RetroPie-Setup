@@ -36,7 +36,7 @@ function depends_emulationstation-dev() {
 }
 
 function sources_emulationstation-dev() {
-    sources_emulationstation "" "master"
+    sources_emulationstation "https://github.com/ln93/EmulationStation-zhcn" "zh-cn"
 }
 
 function build_emulationstation-dev() {
